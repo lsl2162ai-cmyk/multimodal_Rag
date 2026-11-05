@@ -2,17 +2,18 @@
 langchain>=1.0
 langchain-classic>=1.0  # MultiVectorRetriever. langchain 1.x에서 분리됨 (필수)
 langchain-openai
-langchain-community
-langchain-chroma
-langchain-experimental
-langchain-ollama
-unstructured[all-docs]
-pillow
-pydantic
-lxml
-matplotlib
-chromadb
-tiktoken
-python-dotenv
-ipykernel
-jupyterlab
+langchain-community # 커뮤니티에서 개발된 기능들을 제공하는 라이브러리
+langchain-chroma # 대용량 백터검색 엔진
+langchain-experimental # 실험적인 기능들을 제공하는 라이브러리
+langchain-ollama # Ollama와의 통합을 위한 라이브러리
+ # Ollama? 사용자의 개인 컴퓨터(로컬 환경)에서 인공지능(AI) 대규모 언어 모델(LLM)을 손쉽게 다운로드하고 실행할 수 있게 해주는 오픈소스 플랫폼
+unstructured[all-docs] #여러형태의 문서들을 데이터를 추출해주는
+pillow #이미지 처리할때 라이브러리(이미지를 불러오거나, 이미지의 크기를 조정하거나, 이미지를 회전시키는 등의 작업을 수행할 수 있음)
+pydantic #데이터 검증 및 설정 관리에 사용되는 라이브러리
+lxml #HTML 및 XML 문서를 처리하기 위한 라이브러리
+matplotlib #데이터 시각화 라이브러리
+chromadb # 벡터 데이터베이스
+tiktoken # OpenAI의 토큰화 라이브러리
+python-dotenv # 환경 변수 관리 라이브러리
+ipykernel # Jupyter kernel for Python
+jupyterlab # JupyterLab IDE
