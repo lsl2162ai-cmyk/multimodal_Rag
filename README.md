@@ -5,6 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue) ![LangChain](https://img.shields.io/badge/LangChain-1.x-green) ![OpenAI](https://img.shields.io/badge/OpenAI-gpt--4o--mini-black)
 
 ## 1. 문제 정의
+- **문제 정의**: 은행 보조 자료 특성상 표와 이미지 파일이 많아 질문을 바로 찾아내기 어렵기 때문에 수치를 답한는 rag 를 사용해 검색을 목표로 한다.
 - **자료**: [보도자료] 경제상황 평가(2026.10월) — <한국은행>, <18>쪽
 - **자료 특성**: 핵심 수치(물가, 수출, 고용 등)가 본문보다 **그래프·표에** 들어 있음
 - **문제**: 텍스트만 검색하는 RAG는 그래프에만 있는 수치를 물으면 "자료에 없다"고 답함
